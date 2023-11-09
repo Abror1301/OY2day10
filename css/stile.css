@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.smile{
+  width: 490px;
+  height: 490px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8c32c;
+  
+}
+.smile2{
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcf6d1;
+}
+.box{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  position: relative;
+  background-image: linear-gradient(#fbf2a6, #ffb935);
+}
+.eye{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  right: 125px;
+  z-index: 5;
+
+}
+.eye1{
+  height: 110px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.mouth{
+  position: absolute;
+  width: 350px;
+  height: 321px;
+  border-radius:50%;
+  bottom: 12%;
+  left: 50px;
+  background-color:rgb(57, 55, 55);
+}
+.mouth2{
+  width: 370px;
+  height: 275px;
+  bottom: 23%;
+  background-color:white;
+  left: 40px;
+  background-image: linear-gradient(#fbe68f, #f1c965);
+}
+.mouth1{
+  background-color:#fad896;
+  width: 350px;
+  height: 321px;
+  border-radius:50%;
+  bottom: 10%;
+}
